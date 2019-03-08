@@ -1,0 +1,6 @@
+.pic_b{width:500px;height:500px;text-align: center;border:3px solid #eee;
+	margin: 24px auto;box-shadow:0 0 20px rgba(23, 139, 155, 0.747);overflow:hidden;}
+	.pic_b img{}
+/* 이미지에는 box shadow inset이 먹히지않음. 박스에만 먹힘 */
+.thumbs{width:500px; margin:auto;}
+.thumbs img{box-shadow: 0 0 10px rgba(255, 12, 85, 0.685)}

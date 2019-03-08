@@ -1,0 +1,5 @@
+/* 
+position : static(정적), absolute(절대적인), relative(관계를가진), fixed(고정) */
+
+.box{width:100px;height:100px;position:relative;left:0;font-size:1rem;border:5px solid salmon;background-color:rgb(181, 192, 255);line-height: 100px;color:white;}
+

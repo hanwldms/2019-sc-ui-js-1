@@ -1,0 +1,17 @@
+#cnt{width:60px;}
+.horse{width:200px;position: relative;}
+.horse >img{animation-name:horse;
+animation-duration:0.2s;animation-iteration-count: infinite;}
+@keyframes horse{
+	0%{transform: rotate(10deg)}
+	50%{transform: rotate(-15deg)}
+	100%{transform: rotate(10deg)}
+}
+
+
+
+.horse>.badge{padding:5px 10px;background-color:rgb(14, 67, 110);color:white;
+position: absolute;left: 40%;top:10%;}
+#bt_init{}
+#bt_start{display:none;}
+#bt_reset{display:none;}                                                                                                                                                                                                                                                                                                                                                                                    
